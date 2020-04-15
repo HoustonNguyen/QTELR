@@ -3,3 +3,5 @@ This application demonstrates an implementation of a 3D mapping application by w
 
 This repository serves as a archive for showing work done for my capstone project during my senior year of under graduate school.
 This repository and project will not be receiving updates.
+
+The original owner of the repository is https://github.com/mmilord, but the repository was set to private.
