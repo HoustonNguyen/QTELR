@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="8f1524d2-8728-4e86-bf2f-26cbc637023e"
+  name="Input"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="123fd4ff-bcaa-4b91-9e7e-a74703959266"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DOpenTK.Input"
+      tag="ViewCode" />
+  </referencesInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="43dcb99c-9e69-45fd-9818-59825be8f7b2">
+      <profileInstance
+        Id="bffe90e4-7e34-481a-a053-881ec1d0c945"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="65b2a7f5-7bab-4a06-8fe1-73b7baf16f38"
+        name="MouseState"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="d7c8f97a-2d08-4422-b321-3764a94fcf94"
+            handle="viewcode://./CodeSchema_Struct?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FUser%2FDocuments%2FOpenTK%2F1.1%2FBinaries%2FOpenTK%2FRelease%2FOpenTK.dll Namespace%3DOpenTK.Input Type%3DMouseState"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="529fbe62-543a-44a2-b3be-191fc4aacae8"
+            name="struct"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2dfc18fc-2470-427d-90f4-5763d0f7b7ba">
+                <propertyInstance
+                  Id="2bee8d9e-a8ea-473d-b27e-507268189031"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="93762b66-b7c5-4db4-a6c8-fdbf45105032">
+                <propertyInstance
+                  Id="d320f041-a2bf-4dff-8b74-7ed980ddafa5"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="065fecb6-adfc-4d85-9a34-db5b2534b21b">
+                <propertyInstance
+                  Id="d60242f1-bb84-4828-a055-1afb22deb816"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3c4c8d81-4d7e-44d2-a711-4f80c369add2">
+                <propertyInstance
+                  Id="4eba2d74-e055-4cb7-ab12-74018a81382b"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

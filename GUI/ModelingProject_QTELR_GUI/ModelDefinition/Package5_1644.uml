@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="35076199-6d28-43fc-9d36-96f1968b2df7"
+  name="OpenTK"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="fd9a2ce5-c373-4d8d-8a0e-3aabc473b51b"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DOpenTK"
+      tag="ViewCode" />
+  </referencesInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0a727c70-63ac-4901-a4cd-7b7cccb5d805">
+      <profileInstance
+        Id="0ce26bef-6dc7-4de0-8b8e-92eb760ea3dd"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="8f1524d2-8728-4e86-bf2f-26cbc637023e"
+        LastKnownName="Input"
+        LastKnownLocation="Package6_1644.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="af16c03d-29d0-493f-94e7-565915940e3e"
+        name="GLControl"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="04b292c8-b573-4e51-9853-a0533c88cc0a"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FUser%2FDocuments%2FOpenTK%2F1.1%2FBinaries%2FOpenTK%2FRelease%2FOpenTK.GLControl.dll Namespace%3DOpenTK Type%3DGLControl"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="f2dd80b3-aa7d-4822-8cc1-f35abb2c6ac0"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3c70881e-ecf7-4aef-ba18-f47a4eb42e04">
+                <propertyInstance
+                  Id="71911905-3fea-4d8b-bde5-117cf88c0f12"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3abdb7df-7f2d-4ed4-a53f-50ef4acf483b">
+                <propertyInstance
+                  Id="7fe71126-2976-4993-afb0-0e9ef4c3591c"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="51dc4d40-0796-4bac-b26f-200585a80be1">
+                <propertyInstance
+                  Id="d013f276-149f-4133-882c-fb6aaf2d88fb"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="209bfaf6-c726-4740-bb74-5a19d8bccd0d">
+                <propertyInstance
+                  Id="36d7b9da-649f-4bd5-84db-2516211016d1"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="427862a5-44f0-4a7f-b239-0140159146fc">
+                <propertyInstance
+                  Id="b8d84923-a77e-4e3f-b259-a97daf1c48e1"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
